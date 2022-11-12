@@ -1,3 +1,6 @@
+
+
+
 .hero-section{
     background-image: url(../image/banner.png);
     background-position: center;
@@ -142,7 +145,7 @@
  .activities{
     display: flex;
     flex-direction: column;
-    padding: 120px;
+    padding: 110px;
     position: relative;
     bottom: 290px;
   
@@ -225,22 +228,203 @@
     border: 2px solid white;
  }
  
- li a {
-    
-
-
-    text-decoration: none;
-    list-style-type: none;
+ 
+ 
+ .iteneries{
+    display: flex;
+    padding: 120px;
+    position: relative;
+    bottom: 600px;    
+  }
+  .iteneries .col-md-6{
+    display: flex;
+   
+  }
+  .tour{
+    width: 800px;
+    height: 417px;
+   
+ 
+  }
+  .iteneries-info{
+    display: flex;
+    flex-direction: row;
+    text-align: flex-start;
+    padding: 6px 5px;
+    background-color: orangered;
     color: white;
+    line-height: 20px;
+  }
+  .ammount{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    margin: 10px 0px;
+  }
+  .col-md-6 .destinations{
+    display: flex;
+    gap: 20px;
+  }
+  .iteneries h1{
+    margin: 80px 0px;
+  }.destination1{
+    background-image: url(../image/itenaries2.png);
+   background-position: center;
+   background-size: cover;
+    width: 280px;
+    height: 417px;
+    color: white;
+    font-style: italic;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 13px;
     
+ 
+  }
+ .destination2{
+    background-image: url(../image/itenaries3.png ); 
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 417px;
+    color: white;
+    font-style: italic;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 13px;
+ }
+ h4{
+    opacity: 90%;
+    font-weight: 200;
+ }
+
+ .jacob{
+    background-image: url(../image/jacob.png);
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 417px;
+    transition: 0.4s;
+ }
+ .jacob:hover{
+    transform: scale(1.2);
  }
  
- .itenaries{
-    position: relative;
-    bottom: 400px;
+ .brown{
+    background-image: url(../image/brown.png);
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 417px;
+    transition: 0.4s;
  }
-
- .container5{
+ .brown:hover{
+    transform: scale(1.2);
+ }
+ .testimonials .col-md-6{
+    border: 1px solid orangered;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
  }
+ .testimonials .row{
+    display: flex;
+   justify-content: space-around;
+    
+ }
+ .testimonials{
+    position: relative;
+    bottom: 700px;
+    padding: 120px;
+ }
+ .overlayimg{
+    position: relative;
+    right: 5%;
+    background-image: url(../image/overlay.png);
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 417px;
+    display: flex;
+    color: white;
+    align-items: flex-end;
+    justify-content: center;
+ }
+ .testimonials h1{
+    margin: 60px 0px;
+ }
+   .line{
+    height: 100px;
+    width: 200px;
+    color: orangered;
+   
+ }
+ .rectangle1{
+    height: 290px;
+ } 
+ .rectangle2{
+    width: 100%;
+    height: 255px;
+ }
+ .gallery{
+    position: relative;
+     bottom: 800px;
+    padding: 120px;
+ }
+.col-md-3 .img-fluid{
+    position: relative;
+    top: 1px;
+}
+ .gallery h1{
+    margin: 60px 0px;
+ }
+ .footerend{
+    position: relative;
+    bottom: 800px;
+    background-color: orangered;
+    padding: 40px ;
+ }
+ 
+ .footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 90px;
+    gap: 120px;
+    opacity: 90%;
+    line-height: 25px;
+ }
+ .footer span{
+   
+    font-style: italic;
+    color: white;
+    opacity: 100%;
+   
+ 
+ }
+ form input{
+    border: none;
+    background-color:white;
+    padding: 10px 30px;
+   
+ }
+ .submitbutton{
+    background-color: black;
+    color: white;
+    position: relative;
+    right: 25px;
+ }
+ .heart{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom:18px ;
+    left: 230px;
+ 
+ }
+ 
+ 
