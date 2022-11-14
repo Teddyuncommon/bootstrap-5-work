@@ -31,7 +31,7 @@
     display: flex;
     height: 80px;
     width: 80px;
-    padding-left: 15px;
+    
     justify-content: flex-end;
     align-items: flex-end;
 
@@ -94,64 +94,169 @@
     padding: 15px 0px;
  }
 
- .activity1{
-    background-image: url(../image/activity1.png);
-    width: 300px;
-    height: 400px;
-    background-position: center;
-    background-size: cover;
-
- }
-
-
-.activity2{
-    background-image: url(../image/activty2.png);
-    width: 300px;
-    height: 400px;
-    background-position: center;
-    background-size: cover;
- }
-
- .activity3{
-    background-image: url(../image/activity3.png);
-    width: 300px;
-    height: 400px;
-    background-position: center;
-    background-size: cover;
- }
-
- .activity4{
-    background-image: url(../image/activity4.png);
-    width: 300px;
-    height: 400px;
-    background-position: center;
-    background-size: cover;
- }
-
- .activity5{
-    background-image: url(../image/activity5.png);
-    width: 300px;
-    height: 400px;
-    background-position: center;
-    background-size: cover;
- }
-
- .activities .col-md-12{
-    display: flex;
-    gap: 10px;
-  
- }
-
  .activities{
-    display: flex;
-    flex-direction: column;
-    padding: 110px;
-    position: relative;
-    bottom: 290px;
+   display: flex;
+   flex-direction: row;
+   padding: 120px;
+   bottom: 200px;
+   position: relative;
+ 
   
- }
+
+}
+.activity1 h5,.activity2 h5,.activity3 h5,.activity4 h5,.activity5 h5{opacity: 90%;}
+.activity1{
+   background-image: url(../image/activity1\ copy.png);
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+ 
+   background-position: center;
+   background-size: cover;
+   width: 400px;
+   height: 400px;
+   color: white;
+   
+   
+}
+.activity2{
+   background-image: url(../image/activty2.png);
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   width: 300px;
+   height: 400px;
+   background-position: center;
+   background-size: cover;
+   color: white;
+
+}
+.activity3{
+   background-image: url(../image/activity3.png);
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   width: 300px;
+   height: 400px;
+   background-position: center;
+   background-size: cover;
+   color: white;
+ 
+}
+.activity4{
+   background-image: url(../image/activity4.png);
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   width: 300px;
+   height: 400px;
+   background-position: center;
+   background-size: cover;
+   color: white;
+  
+}
+.activity5{
+   background-image: url(../image/activity5.png);
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   width: 300px;
+   height: 400px;
+   background-position: center;
+   background-size: cover;
+   color: white;
+   
+}
+.activities .col-md-12{
+   display: flex;
+   gap: 10px;
+ 
+
+
+}
+.activity1:hover .overlay1{
+  height: 100%;
+  color: white;
+}
+.activity2:hover .overlay2{
+  height: 100%;
+  color: white;
+}
+.activity3:hover .overlay3{
+  height: 100%;
+  color: white;
+}
+.activity4:hover .overlay4{
+  height: 100%;
+  color: white;
+}
+.activity5:hover .overlay5{
+  height: 100%;
+  color: white;
+}
+
+.overlay1{
+  transition:0.5s ease-in;
+   width: 100%;
+   height: 0%;
+   background-color: rgba(0, 0, 0, 0.223);
+   overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-end;
+}
+.overlay2{
+  transition:0.5s ease-in;
+   width: 100%;
+   height: 0%;
+   background-color: rgba(0, 0, 0, 0.223);
+   overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+.overlay3{
+  transition:0.5s ease-in;
+   width: 100%;
+   height: 0%;
+   background-color: rgba(0, 0, 0, 0.223);
+   overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+.overlay4{
+  transition:0.5s ease-in;
+   width: 100%;
+   height: 0%;
+   background-color: rgba(0, 0, 0, 0.223);
+   overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+.overlay5{
+  transition:0.5s ease-in;
+   width: 100%;
+   height: 0%;
+   background-color: rgba(0, 0, 0, 0.223);
+   overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
  .div1{
-    background-color: black;
+    background-color:white;
  }
  
 
@@ -368,12 +473,13 @@
  } 
  .rectangle2{
     width: 100%;
-    height: 255px;
+    height: 255px;  
  }
  .gallery{
     position: relative;
      bottom: 800px;
     padding: 120px;
+    height: 40vh;
  }
 .col-md-3 .img-fluid{
     position: relative;
@@ -382,11 +488,12 @@
  .gallery h1{
     margin: 60px 0px;
  }
- .footerend{
+ .footer2{
     position: relative;
-    bottom: 800px;
+   width: 100%;
     background-color: orangered;
     padding: 40px ;
+    height: 40vh;
  }
  
  .footer{
@@ -412,12 +519,12 @@
     padding: 10px 30px;
    
  }
- .submitbutton{
+  .submitbutton{
     background-color: black;
     color: white;
     position: relative;
-    right: 25px;
- }
+    right: 20px;
+ } 
  .heart{
     width: 40px;
     height: 40px;
@@ -427,4 +534,10 @@
  
  }
  
- 
+  .txt{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   align-items: center;
+   color: white;
+ }
